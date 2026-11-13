@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MobileTyrSec</string>
+    <string-array name="CmdMenu">
+        <item>Edit</item>
+        <item>Delete</item>
+    </string-array>
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MobileTyrSec">
+        <activity
+            android:name=".sqlitespinner"
+            android:exported="false" />
+        <activity
+            android:name=".sqlitedeletelist"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sqliteupdatelist"
+            android:exported="false" />
+        <activity
+            android:name=".sqliteinsert"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lab_Service"
+            android:exported="false" />
+        <activity
+            android:name=".Battery_Level"
+            android:exported="false" />
+        <activity
+            android:name=".Lab_Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Traffic_Light"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxes"
+            android:exported="false" />
+        <activity
+            android:name=".ListView_Items"
+            android:exported="false" />
+        <activity
+            android:name=".Fill_GridView"
+            android:exported="false" />
+        <activity
+            android:name=".Fill_Spinner"
+            android:exported="false" />
+        <activity
+            android:name=".Lst_Chating"
+            android:exported="false" />
+        <activity
+            android:name=".Fill_ListView"
+            android:exported="false" />
+        <activity
+            android:name=".Alert_Rating"
+            android:exported="false" />
+        <activity
+            android:name=".Alert_Xml"
+            android:exported="false" />
+        <activity
+            android:name=".Alert_Input"
+            android:exported="false" />
+        <activity
+            android:name=".Alert_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Toast_Definition"
+            android:exported="false" />
+        <activity
+            android:name=".calculator2"
+            android:exported="false" />
+        <activity
+            android:name=".calculator1"
+            android:exported="false" />
+        <activity
+            android:name=".Intenttocontact"
+            android:exported="false" />
+        <activity
+            android:name=".Intenttoweb"
+            android:exported="false" />
+        <activity
+            android:name=".IntentCall"
+            android:exported="false" />
+        <activity
+            android:name=".Bundle2"
+            android:exported="false" />
+        <activity
+            android:name=".Bundle1"
+            android:exported="false" />
+        <activity
+            android:name=".Activity1"
+            android:exported="false" />
+        <activity
+            android:name=".tabhostt"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".MyService" />
+    </application>
+
+</manifest>

@@ -1,0 +1,54 @@
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="123dp" >
+        <RadioButton
+            android:id="@+id/rbgreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="138dp"
+            android:layout_y="225dp"
+            android:text="Green" />
+
+        <RadioButton
+            android:id="@+id/rborange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="141dp"
+            android:layout_y="305dp"
+            android:text="Orange" />
+
+        <RadioButton
+            android:id="@+id/rbred"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="144dp"
+            android:layout_y="379dp"
+            android:text="Red" />
+    </RadioGroup>
+
+
+
+    <Button
+        android:id="@+id/btnchangelight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="478dp"
+        android:text="Change Light" />
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="116dp"
+        android:text="Status" />
+</AbsoluteLayout>

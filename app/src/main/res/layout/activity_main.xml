@@ -1,0 +1,168 @@
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/btnclick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="4dp"
+        android:text="GOoo" />
+
+    <Button
+        android:id="@+id/btngo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="6dp"
+        android:text="Normal Intent " />
+
+    <Button
+        android:id="@+id/btngotointentcall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="59dp"
+        android:text="Intent Call" />
+
+    <Button
+        android:id="@+id/btngotoweb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="145dp"
+        android:layout_y="57dp"
+        android:text="Intent to Web" />
+
+    <Button
+        android:id="@+id/btngotocontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="4dp"
+        android:layout_y="112dp"
+        android:text="Intent To Contact" />
+
+    <Button
+        android:id="@+id/btngotoclac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="182dp"
+        android:layout_y="107dp"
+        android:text="Calculator Using Bundle" />
+
+    <Button
+        android:id="@+id/btngototoast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="18dp"
+        android:layout_y="166dp"
+        android:text="Go To Toast" />
+
+    <Button
+        android:id="@+id/btngotoalert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="188dp"
+        android:layout_y="163dp"
+        android:text="Go to Alert Dialog" />
+
+    <Button
+        android:id="@+id/btngotoalertinput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="3dp"
+        android:layout_y="219dp"
+        android:text="Alert With Input" />
+
+    <Button
+        android:id="@+id/btngotoalertxml"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="190dp"
+        android:layout_y="216dp"
+        android:text="Alert With Xml" />
+
+    <Button
+        android:id="@+id/btngotoalertrating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="272dp"
+        android:text="Alert With Rating" />
+
+    <Button
+        android:id="@+id/btngotolistview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="199dp"
+        android:layout_y="270dp"
+        android:text="Fill ListView" />
+
+    <Button
+        android:id="@+id/btngotospinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="323dp"
+        android:text="Fill Spinner" />
+
+    <Button
+        android:id="@+id/btngotogrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="199dp"
+        android:layout_y="323dp"
+        android:text="Fill GridView" />
+
+    <Button
+        android:id="@+id/btnlistItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="21dp"
+        android:layout_y="375dp"
+        android:text="ListView With Items" />
+
+    <Button
+        android:id="@+id/btncheckboxes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="209dp"
+        android:layout_y="372dp"
+        android:text="CheckBoxes" />
+
+    <Button
+        android:id="@+id/btntraffic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="429dp"
+        android:text="Traffic Light" />
+
+    <Button
+        android:id="@+id/btnmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="194dp"
+        android:layout_y="429dp"
+        android:text="Menu" />
+
+    <Button
+        android:id="@+id/btnbatterylevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="34dp"
+        android:layout_y="484dp"
+        android:text="Battery Level" />
+
+    <Button
+        android:id="@+id/btngotoservice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="208dp"
+        android:layout_y="486dp"
+        android:text="Service" />
+</AbsoluteLayout>
+
+
